@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Custom Style*/
+
+
+
+.body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1350px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.second-container {
+    max-width: 800px;
+    padding:0 35px ;
+    margin: 0 auto;
+}
+
+/*Flex*/
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+
+.flex-48 {
+    flex: 0 1 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.btn {
+    padding: 8px, 12px;
+    color: white;
+    background-color: rgb(237,87,59);
+}
+
+
+/*Variables*/
+
+
+:root {
+    --primary: rgb(237,86,58);
+   
+}
+
+/*Header*/
+
+
+.header {
+    padding: 20px 0;
+   
+}
+.brand {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.brand strong {
+    color: var(--primary);
+}
+
+.nav-menu ul li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/*Hero*/
+
+.hero {
+    text-align: center;
+   
+   
+}
+.hero h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 150px;
+
+}
+.hero h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.hero h4 strong {
+    color: var(--primary);
+}
+.hero a {
+    display: inline-block;
+   
+}
+.bg {
+    position: relative;
+   
+}
+.video {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
